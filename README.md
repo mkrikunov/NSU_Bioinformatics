@@ -1,1 +1,1 @@
-# NSU_Bioinformatics-1
+# NSU_Bioinformatics
