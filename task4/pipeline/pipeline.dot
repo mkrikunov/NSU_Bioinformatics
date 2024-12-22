@@ -1,0 +1,10 @@
+digraph G {
+  node [shape=box];
+  prepare [label="prepare"];
+  quality_check [label="quality_check"];
+  final_result [label="final_result"];
+  clean [label="clean"];
+  prepare -> quality_check;
+  quality_check -> final_result;
+  final_result -> clean;
+}
